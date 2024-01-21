@@ -1,0 +1,51 @@
+.smart-fit-main{
+    .smart-fit-header{
+        width: 100%;
+        height: 150px;
+        background-color: black;
+    }
+    .smart-fit-container{
+        display: grid;
+        justify-content: center;
+        padding-top: 40px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 40px;
+        .smart-fit-title{
+            width: 300px;
+            size: 40px;
+            h1{
+                font-family: "gotham-bold";
+                font-size: 50px
+            }
+            .smartfit-div{
+                width: 115px;
+                height: 10px;
+                margin-top: 16px;
+                background-color: black;
+            }
+        }
+        .smart-fit-subtitle{
+            margin-top: 32px;
+            width: 1048px;
+            h2{
+                font-family: "gotham-book";
+                font-size: 18px;
+            }
+        }
+        .smart-fit-forms{
+            margin-top: 32px;
+        }
+    }
+    footer{
+            width: 100%;
+            height: 100%;
+            background-color: #333333;
+    }
+}
+.smart-fit-logo{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    padding: 30px 30px;
+}
